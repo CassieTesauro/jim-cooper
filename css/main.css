@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-color: rgb(161, 190, 228);
+    font-family: 'Oswald', sans-serif;
+}
+
+.article {
+    display: flex; 
+    justify-content: center;
+}
+
+.section1 {
+    background-color:rgb(153, 173, 197);
+    text-align: center;
+    padding: 20px;
+    padding-bottom: stretch;
+    border-radius: 5px;
+    justify-content: center;
+    width: 40%;
+}
+
+.section1__heading {
+    padding: 0;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.section1__photo--outer {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+/*QUESTION: how do I size the imaage and make it responsive?*/
+.section1__photo--inner img {  
+    /*border: 5px solid red*/
+    width: 485px;  
+}
+
+.section1__photo--caption {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+.container__section2and3 {
+   flex-direction: column;
+   margin-left: 50px;
+   padding: 10px;  
+}
+
+.section2 {
+    background-color: rgb(243, 246, 247);
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-top: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.section2__heading {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section3 {
+    background-color:rgb(243, 246, 247);
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section3__heading {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section3 a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.section3 a:visited {
+    color: black;
+ }
+
+.section3 a:hover {
+    color:rgb(10, 79, 184);
+    text-decoration: underline; 
+}
+
+
