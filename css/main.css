@@ -36,8 +36,9 @@ body {
 
 /*QUESTION: how do I size the imaage and make it responsive?*/
 .section1__photo--inner img {  
-    /*border: 5px solid red*/
-    width: 485px;  
+    /*border: 5px solid red
+    width: 485px;  */
+    width: 100%;
 }
 
 .section1__photo--caption {
@@ -46,7 +47,7 @@ body {
 }
 
 
-.container__section2and3 {
+.container__committees-and-legislation-sections {
    flex-direction: column;
    margin-left: 50px;
    padding: 10px;  
